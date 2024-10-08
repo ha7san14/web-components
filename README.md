@@ -44,3 +44,19 @@ Ensure the following are installed on your machine:
 ```bash
 git clone <repository-url>
 cd <repository-folder>
+
+```
+#Install necessary dependencies 
+
+# For Host App
+cd host-app
+npm install
+
+# For Remote App 1
+cd ../remote-app-1
+npm install
+
+# For Remote App 2
+cd ../remote-app-2
+npm install
+
