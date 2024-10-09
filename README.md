@@ -13,11 +13,11 @@
 
 ## Overview
 
-This project implements a microfrontend architecture using the Quasar Framework, allowing modular and scalable frontend applications. The architecture includes a host application and multiple remote applications that expose components for seamless integration via Webpack Module Federation.
+This project implements a microfrontend architecture using the Quasar Framework, allowing modular and scalable frontend applications. The architecture includes a host application and multiple remote applications that expose components for integration via Webpack Module Federation.
 
 ## Project Structure
 
-- **Host App**: The main application that orchestrates rendering of remote microfrontends.
+- **Host App**: The main application that manages rendering of remote microfrontends.
 - **Remote App 1**: A standalone microfrontend exposing specific components.
 - **Remote App 2**: Another standalone microfrontend with its own set of components.
 - **Exposed Components**: Shared components usable across different microfrontends.
@@ -30,7 +30,7 @@ Follow these instructions to set up the project on your local machine.
 
 Ensure the following are installed on your machine:
 
-- Node.js (v14 or higher)
+- Node.js 
 - Yarn or npm
 - Quasar CLI
 
